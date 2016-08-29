@@ -149,21 +149,6 @@
       }
     }
  
-    // Resolve the icons behavior with event delegation
-    $( "ul.gallery > li" ).on( "click", function( event ) {
-      var $item = $( this ),
-        $target = $( event.target );
- 
-      if ( $target.is( "a.ui-icon-check" ) ) {
-        deleteImage( $item );
-      } else if ( $target.is( "a.ui-icon-zoomin" ) ) {
-        viewLargerImage( $target );
-      } else if ( $target.is( "a.ui-icon-refresh" ) ) {
-        recycleImage( $item );
-      }
- 
-      return false;
-    });
   } );
   </script>
 </head>
@@ -176,32 +161,22 @@
   <li class="ui-widget-content ui-corner-tr">
     <h5 class="ui-widget-header">Overwatch</h5>
     <img src="overwatch-cover.jpg" alt="The peaks of High Tatras" width="96" height="72">
-    <a href="overwatch-cover.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
-    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-check"; color: green;>Delete image</a>
   </li>
   <li class="ui-widget-content ui-corner-tr">
     <h5 class="ui-widget-header" style="font-size: 0.48em">League of Ledgends</h5>
     <img src="league.jpg" alt="The chalet at the Green mountain lake" width="96" height="72">
-    <a href="league.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
-    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-check">Delete image</a>
   </li>
   <li class="ui-widget-content ui-corner-tr">
     <h5 class="ui-widget-header">Doom 4</h5>
     <img src="doom.jpg" alt="Planning the ascent" width="96" height="72">
-    <a href="doom.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
-    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-check">Delete image</a>
   </li>
   <li class="ui-widget-content ui-corner-tr">
     <h5 class="ui-widget-header">Minecraft</h5>
     <img src="mine.jpg" alt="On top of Kozi kopka" width="96" height="72">
-    <a href="mine.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
-    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-check">Delete image</a>
   </li>
   <li class="ui-widget-content ui-corner-tr">
     <h5 class="ui-widget-header">Crysis 3</h5>
     <img src="crysis.jpg" alt="On top of Kozi kopka" width="96" height="72">
-    <a href="crysis.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
-    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-check">Delete image</a>
   </li>
 </ul>
  
