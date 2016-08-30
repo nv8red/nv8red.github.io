@@ -63,7 +63,7 @@
   <a href=""></a>
   <h1>Welcome</h1>
   <div class="filler"></div>
-   <a class="hvr-radial-out" id="button" style="text-decoration:none;" href="https://nv8red.github.io/"> Build your computer </a>
   <a class="hvr-radial-out" id="button" style="text-decoration:none;" href="https://nv8red.github.io/"> Build your computer </a>
+  <a class="hvr-radial-out" id="button" style="text-decoration:none;" href="http://pckit.dozuki.com/"> Build your computer </a>
 </body>
 </html>
