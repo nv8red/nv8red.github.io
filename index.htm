@@ -7,17 +7,19 @@
   <link rel="stylesheet" href="C:\Users\nv8red\Documents\PCkitPics\jquery-ui-1.12.0.custom\jquery-ui-1.12.0.custom\jquery-ui.css">
   <link rel="stylesheet" href="C:\Users\nv8red\Documents\PCkitPics\style.css">
   <style>
-  .gallery { float: left; width: 100%; min-height: 12em; }
+  .gallery { float: left; width: 95vw; height: 10em; }
   .gallery.custom-state-active { background: #eee; }
-  .gallery li { float: left; width: 6vw; height: 12vh; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+  .gallery li { float: left; width: 6vw; height: 12vh; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; display: inline; }
   .gallery li h5 { margin: 0 0 0.4em; cursor: move; }
   .gallery li a { float: right; }
-  .gallery li a.ui-icon-zoomin { float: left; }
   .gallery li img { width: 100%; cursor: move; }
  
   #trash { width: 60vw; height: 20vh; margin-left: auto; margin-right: auto;}
+  #trash li { float: left; width: 6vw; height: 12vh; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; display: inline; }
+  #trash li h5 { margin: 0 0 0.4em; cursor: move; }
+  #trash li a { float: right; }
+  #trash li img { width: 100%; cursor: move; }
   #trash h4 { line-height: 16px; margin: 0 0 0.4em; }
-  #trash h4 .ui-icon { float: left; }
   .hvr-grow {
 	display: inline-block;
 	vertical-align: middle;
@@ -127,9 +129,9 @@
   </li>
 </ul>
 </div>
-<ul id="trash" class="ui-widget-content ui-state-default ui-helper-clearfix">
-  <h4 class="ui-widget-header" style="height: 20px"> Selected: </h4>
-</ul>
+<div id="trash" class="ui-widget-content ui-state-default ui-helper-clearfix">
+  <h4 class="ui-widget-header" style="height: 1em"> Selected: </h4>
+</div>
 <a class="hvr-grow"  style="text-decoration: none; float: right;" href="index - Copy.htm">Next</a>
  
 </body>
